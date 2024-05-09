@@ -1,0 +1,15 @@
+h1 {
+  margin-bottom: var(--indent3);
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--indent5);
+}
+
+@media (max-width: 400px) {
+  section {
+    justify-content: center;
+  }
+}

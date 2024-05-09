@@ -1,0 +1,9 @@
+@if (enrollment(); as enrollment) {
+  <h1>{{ enrollment.studyPlaceTitle }}</h1>
+
+  <section>
+    @for (item of items; track item) {
+      <app-item-card [item]="item" />
+    }
+  </section>
+}

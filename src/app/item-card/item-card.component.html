@@ -1,0 +1,7 @@
+@if (item(); as item) {
+  <a [redirectLink]="item.redirect.subdomain" [url]="item.redirect.url">
+    <h2>{{ item.title }}</h2>
+    <span>{{ item.description }}</span>
+    <mat-icon>{{item.icon}}</mat-icon>
+  </a>
+}

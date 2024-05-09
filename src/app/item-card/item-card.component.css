@@ -1,0 +1,22 @@
+:host {
+  display: block;
+  border-radius: var(--indent3);
+  border: 2px solid var(--primary-color);
+  background: color-mix(in srgb, var(--primary-color) 20%, transparent);
+  width: 300px;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  padding: var(--indent3) var(--indent4) var(--indent4) var(--indent4);
+  gap: var(--indent2);
+}
+
+mat-icon {
+  width: 56px;
+  height: 56px;
+  font-size: 56px;
+  margin-top: var(--indent1);
+  align-self: flex-end;
+}
