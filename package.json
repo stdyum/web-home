@@ -23,7 +23,7 @@
     "@angular/router": "^18.0.0-next.5",
     "@likdan/form-builder-material": "^0.0.8",
     "@likdan/state-mapper": "^0.0.1",
-    "@likdan/studyum-core": "^0.0.3",
+    "@likdan/studyum-core": "^0.0.4",
     "jwt-decode": "^4.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
