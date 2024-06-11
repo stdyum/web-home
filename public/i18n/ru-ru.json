@@ -1,0 +1,11 @@
+{
+  "header_logout": "Выход",
+  "header_login": "Вход",
+  "header_signup": "Регистрация",
+  "card_schedule_title": "Расписание",
+  "card_schedule_description": "Просматривай свое расписание",
+  "card_journal_title": "Журнал",
+  "card_journal_description": "Смотри свои оценки",
+  "card_admin_title": "Админ-панель",
+  "card_admin_description": "Управляй учреждением образования"
+}

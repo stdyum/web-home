@@ -15,16 +15,22 @@ import { Enrollment } from '@likdan/studyum-core';
 export class PageHomeComponent {
   items: Item[] = [
     {
-      title: 'Schedule',
-      description: 'Browse your schedule',
+      title: 'card_schedule_title',
+      description: 'card_schedule_description',
       redirect: 'schedule',
       icon: 'event_note',
     },
     {
-      title: 'Journal',
-      description: 'View your marks',
+      title: 'card_journal_title',
+      description: 'card_journal_description',
       redirect: 'journal',
       icon: 'book_2',
+    },
+    {
+      title: 'card_admin_title',
+      description: 'card_admin_description',
+      redirect: 'admin',
+      icon: 'manage_accounts',
     },
   ];
 

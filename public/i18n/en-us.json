@@ -1,0 +1,11 @@
+{
+  "header_logout": "Logout",
+  "header_login": "Login",
+  "header_signup": "Signup",
+  "card_schedule_title": "Schedule",
+  "card_schedule_description": "Browse your schedule",
+  "card_journal_title": "Journal",
+  "card_journal_description": "View your marks",
+  "card_admin_title": "Admin",
+  "card_admin_description": "Manage your study place"
+}

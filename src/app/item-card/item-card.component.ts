@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
-import { RedirectLinkDirective } from '@likdan/studyum-core';
+import { RedirectLinkDirective, TranslationPipe } from '@likdan/studyum-core';
 import { MatIcon } from '@angular/material/icon';
 
 export interface Item {
@@ -28,6 +28,7 @@ export interface ItemExpanded {
   imports: [
     RedirectLinkDirective,
     MatIcon,
+    TranslationPipe
   ],
   templateUrl: './item-card.component.html',
   styleUrl: './item-card.component.css',
